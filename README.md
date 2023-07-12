@@ -1,5 +1,5 @@
-# Awesome-Fur-Modeling-Papers
-A Collection of Papers and Codes about fur modeling
+# Awesome-Hair&Fur-Modeling-Papers
+A Collection of Papers and Codes about hair and fur modeling
 
 ## Catalogue
 
