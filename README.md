@@ -32,3 +32,9 @@ A Collection of Papers and Codes about Hair and Fur Modeling
 - Project Website: https://mandyxmq.github.io/research/wavefiber_3d.html
 - Abstract:
   > *We propose a practical model for simulating wave effects from rough fibers with arbitrary 3D microgeometry. This model can be easily combined with existing scattering models to render hair and fur of various colors, adding colorful glints that were missing from previous models.*
+
+**NeRF-Texture: Texture Synthesis with Neural Radiance Fields**
+- Paper: [Coming Soon]
+- Project Website: [https://mandyxmq.github.io/research/wavefiber_3d.html](https://yihua7.github.io/NeRF-Texture-web/)
+- Abstract:
+  > *We propose NeRF-Texture, a novel texture synthesis method based on NeRF. It effectively models real-world textures containing both meso-scale geometry and view-dependent appearance by utilizing a coarse-fine disentanglement representation and synthesizes NeRF textures of arbitrary sizes via patch matching, which can be applied to new surfaces to add rich details.*
