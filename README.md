@@ -4,6 +4,7 @@ A Collection of Papers and Codes about Hair and Fur Modeling
 ## Catalogue
 
 - [SIGGRAPH 2023](#SIGGRAPH2023)
+- [ECCV 2022](#ECCV2022)
 
 <a name="SIGGRAPH2023"></a>
 # SIGGRAPH2023 [[back](#catalogue)]
@@ -39,3 +40,12 @@ A Collection of Papers and Codes about Hair and Fur Modeling
 - Project Website: https://yihua7.github.io/NeRF-Texture-web/
 - Abstract:
   > *We propose NeRF-Texture, a novel texture synthesis method based on NeRF. It effectively models real-world textures containing both meso-scale geometry and view-dependent appearance by utilizing a coarse-fine disentanglement representation and synthesizes NeRF textures of arbitrary sizes via patch matching, which can be applied to new surfaces to add rich details.*
+
+<a name="ECCV2022"></a>
+# ECCV2022 [[back](#catalogue)]
+
+**Neural Strands: Learning Hair Geometry and Appearance from Multi-View Images**
+- Paper: https://arxiv.org/pdf/2207.14067.pdf
+- Project Website: https://radualexandru.github.io/neural_strands/
+- Abstract:
+  > *We present Neural Strands, a novel learning framework for modeling accurate hair geometry and appearance from multi-view image inputs. The learned hair model can be rendered in real-time from any viewpoint with high-fidelity view-dependent effects. Our model achieves intuitive shape and style control unlike volumetric counterparts. To enable these properties, we propose a novel hair representation based on a neural scalp texture that encodes the geometry and appearance of individual strands at each texel location. Furthermore, we introduce a novel neural rendering framework based on rasterization of the learned hair strands. Our neural rendering is strand-accurate and anti-aliased, making the rendering view-consistent and photorealistic. Combining appearance with a multi-view geometric prior, we enable, for the first time, the joint learning of appearance and explicit hair geometry from a multi-view setup. We demonstrate the efficacy of our approach in terms of fidelity and efficiency for various hairstyles.*
