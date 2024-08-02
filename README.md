@@ -3,8 +3,34 @@ A Collection of Papers and Codes about Hair and Fur Modeling
 
 ## Catalogue
 
+- [SIGGRAPH 2024](#SIGGRAPH2024)
 - [SIGGRAPH 2023](#SIGGRAPH2023)
 - [ECCV 2022](#ECCV2022)
+
+<a name="SIGGRAPH2024"></a>
+# SIGGRAPH2024 [[back](#catalogue)]
+
+**Real-time Physically Guided Hair Interpolation**
+- Paper: https://dl.acm.org/doi/pdf/10.1145/3658176
+- Tags: Hair Interpolation, Cosserat Rod
+- Abstract:
+  > *Linear interpolation can often cause severe deformation artifacts in hair for which alternatives often entail expensive training or precomputation. Instead, we present a novel force-based hair interpolation scheme to leverage existing real-time simulation data for a robust interpolation with very little overhead and no expensive training.*
+
+**Real-Time Hair Rendering with Hair Meshes**
+- Paper: https://dl.acm.org/doi/pdf/10.1145/3641519.3657521
+- Project Website: http://cemyuksel.com/research/hairmesh_rendering/
+- Tags: Real-time rendering, hair rendering, hair modeling, hair meshes
+- Abstract:
+  > *Hair meshes are known to be effective for modeling and animating hair in computer graphics. We present how the hair mesh structure can be used for efficiently rendering strand-based hair models on the GPU with on-the-fly geometry generation that provides orders of magnitude reduction in storage and memory bandwidth. We use mesh shaders to carefully distribute the computation and a custom texture layout for offloading a part of the computation to the hardware texture units. We also present a set of procedural styling operations to achieve hair strand variations for a wide range of hairstyles and a consistent coordinate-frame generation approach to attach these variations to an animating/deforming hair mesh. Finally, we describe level-of-detail techniques for improving the performance of rendering distant hair models. Our results show an unprecedented level of performance with strand-based hair rendering, achieving hundreds of full hair models animated and rendered at real-time frame rates on a consumer GPU.*
+
+**Modeling Hair Strands with Roving Capsules**
+- Paper: https://dl.acm.org/doi/pdf/10.1145/3641519.3657450
+- Project Website: https://research.nvidia.com/publication/2024-07_modeling-hair-strands-roving-capsules
+- Code: https://www.shadertoy.com/view/4ffXWs
+- Tags: Bézier curves, parametric surfaces, swept volumes, generalized
+cylinders, hair and fur rendering, ray tracing, polynomial equations
+- Abstract:
+  > *Hair strands can be modeled by sweeping spheres with varying radii along Bézier curves. We ray-trace such shapes by finding intersections of a given ray with a set of capsules dynamically defined at runtime. A substantial performance boost is achieved by systematically eliminating parts of the shape that are guaranteed not to intersect with the given ray. The new intersector is more than twice faster than the previously leading phantom algorithm. This improvement results in a 30% overall performance increase, which includes traversal, shading, and the rendering system overhead. In addition, we derive a parametric form of the swept sphere shapes. This provides a deeper understanding of the properties of such objects compared to the offset surfaces obtained by sweeping circles orthogonal to a given curve.*
 
 <a name="SIGGRAPH2023"></a>
 # SIGGRAPH2023 [[back](#catalogue)]
